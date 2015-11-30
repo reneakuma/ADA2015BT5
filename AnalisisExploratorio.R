@@ -1,0 +1,11 @@
+melateData<-read.csv("ResultadosMelate.csv")
+names(melateData)
+melateData
+summary(melateData)
+dim(melateData)
+hist(melateData$N1)
+hist(melateData$N2)
+hist(melateData$N3)
+hist(melateData$N4)
+hist(melateData$N5)
+hist(melateData$N6)
